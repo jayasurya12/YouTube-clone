@@ -1,7 +1,9 @@
 const initiValue={
-    user:null
+    user:{
+        name:'jai'
+    }
 }
-
+console.log(initiValue.user);
 const Reducer=(state=initiValue, action)=>{
     switch(action.type){
         case "USER_LOGIN":

@@ -1,0 +1,8 @@
+.body{
+    display: flex;
+    position: static;
+}
+.sidebar{
+    position: static;
+    top: 50px !important;
+}
