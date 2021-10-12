@@ -1,0 +1,48 @@
+.video{
+    margin-top: 10px;
+    width: 260px;
+}
+.videoCard>p>img{
+    width: 32px;
+    height: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.videoCard>img{
+    width: 250px;
+    cursor: pointer;
+}
+.videoCard>p>a{
+    text-decoration: none;
+}
+.titleContainer{
+    width: 259px;
+    display: flex;
+    justify-content: space-between; 
+}
+.titleContainer>a{
+    color: rgba(0, 0, 0, 0.808);
+}
+.title{
+    margin-left: 10px;
+    width: 220px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.channelName{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.74);
+    margin-left: 20px;
+}
+.views{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.788);
+    font-weight: 600;
+    font-size: 13px;
+}
+.views>p>span{
+    font-size: 14px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.678);
+}

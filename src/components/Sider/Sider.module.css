@@ -1,26 +1,26 @@
 
 .sider{
+    position: sticky;
+    top: 20px;
     margin-left: 10px;
     width: 240px;
-    height: 100vh;
+    height:90vh;
     overflow-y: scroll;
     /* scrollbar-width: 5px; */
     scrollbar-color: #5f5f6e;  
+    font-size: 15px;
 }
-body::-webkit-scrollbar {
-    width: 10px;
-    border-radius:2px ;
-  }
-   
-  body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-   
-  body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
+.sider::-webkit-scrollbar {
+    width:7px;
 }
-
+.sider::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius:5px;
+}
+.sider::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px rgb(20, 19, 19); 
+}
 .siderFirst>div,.siderSecond>div{
     display: flex;
     align-items: center;

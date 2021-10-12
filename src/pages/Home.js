@@ -11,13 +11,13 @@ const Home = () => {
         <div className={style.homeContainer}>
             {!state ?<Login/>
             :
-            <div>
+            <div className={style.home}>
                 <Header/>
                 <div className={style.body}>
-                <div className={style.sidebar}>
-                    <Sider/>
+                    <div className={style.sidebar}>
+                        <Sider/>  
                     </div>
-                <Topics/>
+                    <Topics/>
                 </div>
             </div>
             

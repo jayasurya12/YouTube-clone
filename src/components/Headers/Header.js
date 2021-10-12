@@ -12,12 +12,11 @@ import { IconButton } from '@mui/material';
 import {useSelector} from 'react-redux'
 const Header = () => {
     const state=useSelector((state)=>state.user)
-    console.log(state);
     return (
         <div className={style.header}>
             <section className={style.headerLeft}>
                <div className={style.menu}>
-               <MenuIcon/>
+              <IconButton> <MenuIcon/></IconButton>
                </div>
                 <YouTubeIcon/>
                 <p>YouTube</p>

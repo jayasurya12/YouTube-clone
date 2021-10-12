@@ -1,8 +1,11 @@
-.body{
-    display: flex;
-    position: static;
-}
-.sidebar{
-    position: static;
-    top: 50px !important;
-}
+/* .home{
+    position: sticky;
+    top: 0;
+} */
+/* .home::-webkit-scrollbar {
+    display: none;
+  } */
+  .body{
+      display: flex;
+      justify-content: start;
+  }

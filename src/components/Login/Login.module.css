@@ -4,7 +4,7 @@
     place-items: center;
 }
 .Login>div>svg{
-    font-size: 200px;
+    font-size: 180px;
     color: red;
 }
 .Login>div{
@@ -33,12 +33,6 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width:820px) {
-    .Login>div>svg{
-        font-size: 180px;
-        color: red;
-    }
-}
 @media screen and (max-width:600px) {
     .Login>div>svg{
         font-size: 160px;

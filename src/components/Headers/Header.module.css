@@ -9,13 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 20px;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 .headerLeft{
     display: flex;
-    
     align-items: center;
     gap: 10px;
 }

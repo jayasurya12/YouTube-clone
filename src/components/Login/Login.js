@@ -21,7 +21,7 @@ const Login = () => {
                 <p>YouTube</p>
             </div>
             <Button onClick={signinClick} className={style.button}>
-                Login
+                Signin
                 <img alt='' src={'https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg'}/>
             
             </Button>
